@@ -58,20 +58,20 @@ HAVING HOUR BETWEEN 9 AND 19;
 
 [MySQL에서 제공하는 날자 관련 함수]
 
-DAYOFMONTH(date) : 날짜만 리턴해주는 함수. (1-31) 한달을 단위로.
-DAYOFYEAR(date) : 이역시 날짜만 리턴. (1-366) 1년을 단위로.
-TO_DAYS(date) : 연도와 달을 모두 날짜화 시켜서 리턴해줍니다.
+- DAYOFMONTH(date) : 날짜만 리턴해주는 함수. (1-31) 한달을 단위로.
+- DAYOFYEAR(date) : 이역시 날짜만 리턴. (1-366) 1년을 단위로.
+- TO_DAYS(date) : 연도와 달을 모두 날짜화 시켜서 리턴해줍니다.
                             (1999-01-01 = (1999 * 365) + (01 * 31) + 1)
-MONTH(date) : 달을 리턴해주는 함수.
-DAYNAME(date) : 요일을 문자로 리턴. (ex :'Thursday')
-MONTHNAME(date) : 달을 문자로 리턴. (ex :'February')
-WEEK(date) : 해당 연도에 몇번째 주인지를 리턴 (0-52)
-YEAR(date) : 연도를 리턴 (1000-9999)
-HOUR(time) : 시간 리턴 
-MINUTE(time) : 분 리턴
-SECOND(time) : 초 리턴
+- MONTH(date) : 달을 리턴해주는 함수.
+- DAYNAME(date) : 요일을 문자로 리턴. (ex :'Thursday')
+- MONTHNAME(date) : 달을 문자로 리턴. (ex :'February')
+- WEEK(date) : 해당 연도에 몇번째 주인지를 리턴 (0-52)
+- YEAR(date) : 연도를 리턴 (1000-9999)
+- HOUR(time) : 시간 리턴 
+- MINUTE(time) : 분 리턴
+- SECOND(time) : 초 리턴
 
-DATE_FORMAT(date,format)
+- DATE_FORMAT(date,format)
 
      `%W'    Weekday name (`Sunday'..`Saturday')
      `%D'    Day of the month with english suffix (`1st', `2nd', `3rd',
