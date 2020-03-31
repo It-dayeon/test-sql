@@ -72,7 +72,7 @@ HAVING HOUR BETWEEN 9 AND 19;
 - SECOND(time) : 초 리턴
 
 - DATE_FORMAT(date,format)
-
+```
      `%W'    Weekday name (`Sunday'..`Saturday')
      `%D'    Day of the month with english suffix (`1st', `2nd', `3rd',
              etc.)
@@ -101,7 +101,7 @@ HAVING HOUR BETWEEN 9 AND 19;
      `%u'    Week (`0'..`52'), Monday is the first day of the week.
      `%%'    Single `%' characters are ignored.  Use `%%' to produce a
              literal `%' (for future extensions).
-
+```
 
 
 출처: https://jang8584.tistory.com/7 [개발자의 길]
