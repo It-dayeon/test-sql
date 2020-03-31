@@ -48,3 +48,8 @@ Raven |	2
 ```sql
 SELECT NAME, COUNT(NAME) FROM ANIMAL_INS GROUP BY NAME HAVING COUNT(NAME) > 1;
 ```
+
++ 참고
+
+- COUNT(NAME)은 NULL을 제외하고 계산
+- COUNT(*)은 NULL 값을 포함하여 계산
