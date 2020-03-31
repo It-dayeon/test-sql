@@ -38,6 +38,7 @@ A513956 |	Dog |	2017-06-14 11:54:00 |	Normal |	*Sweetie |	Spayed Female
 count
 ---|
 2
+
 ※ 컬럼 이름(위 예제에서는 count)은 일치하지 않아도 됩니다.
 
 ---
