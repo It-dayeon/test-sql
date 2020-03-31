@@ -36,6 +36,7 @@ A403564 |	Dog |	2013-11-18 17:03:00 |	Normal |	Anna |	Spayed Female
 count
 ---|
 4
+
 ※ 컬럼 이름(위 예제에서는 count)은 일치하지 않아도 됩니다.
 
 ---
