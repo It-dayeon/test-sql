@@ -1,4 +1,4 @@
-# 코딩테스트 연습 > IS NULL > 이름이 있는 동물의 아이디
+# 코딩테스트 연습 > IS NULL > NULL 처리하기
 
 **문제 설명**
 
@@ -34,9 +34,10 @@ A368930 |	Dog |	2014-06-08 13:20:00 |	Normal |	NULL |	Spayed Female
 따라서 SQL문을 실행하면 다음과 같이 나와야 합니다.
 
 ANIMAL_TYPE	NAME |	SEX_UPON_INTAKE
-Cat	 |Jewel |	Spayed Female
-Cat	 |Meo |	Neutered Male
-Dog	 |No name |	Spayed Female
+--- | --- |
+Cat	 | Jewel |	Spayed Female
+Cat	 | Meo |	Neutered Male
+Dog	 | No name |	Spayed Female
 
 ※ 컬럼 이름은 일치하지 않아도 됩니다.
 
